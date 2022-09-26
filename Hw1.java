@@ -12,7 +12,7 @@ public static void main(String[] args){
     while(true){
         System.out.println("Enter one letter : ");
         String get = input.next().toUpperCase();
-        char   x   = (get.charAt(0));
+        char   x   = get.charAt(0);
         
     
         switch(x){
