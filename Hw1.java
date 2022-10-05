@@ -17,11 +17,11 @@ public static void main(String[] args){
         
             switch(x){
                 case 'A': 
-                aCounter+=1 ; break;
+                aCounter++ ; break;
                 case 'B': 
-                bCounter+=1 ; break;
+                bCounter++ ; break;
                 case 'C': 
-                cCounter+=1 ; break;
+                cCounter++ ; break;
                 case 'Z':
                 stop = 1    ; break ;
                 default:
