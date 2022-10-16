@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Hw3 {
-    public static void HW3 (){
+    public static void Hw3 (){
         try (Scanner input = new Scanner(System.in)) {
             System.out.println("please enter number of row :");
             int row = input.nextInt();
@@ -22,36 +22,11 @@ public class Hw3 {
                     A[i][n]=element;
                     B[j][n]=element;
                 }
-                
             } 
-
-            //output as Matrix ...
-            System.out.println("The matrix you've enter :");
-            for(int i=0;i<row; ++i){
-            for(int item:A[i]){
-                System.out.print(" " + item + " ");
-
-            }
-            System.out.println("");
-        }
-
-            System.out.println("The Matrix after change : ");
-            for(int i=0;i<row; ++i){
-            for(int item:B[i]){
-                System.out.print(" " + item + " ");
-
-            }
-            System.out.println("");
-        }
-
-
-        //output as 2D array
-        System.out.println("As Array:\n"+Arrays.deepToString(A)+"\n"+Arrays.deepToString(B));
-
-
-
-
-        }catch(Exception InputMismatchException) {
+            
+            System.out.println(Arrays.deepToString(A));
+            System.out.println(Arrays.deepToString(B));
+        }catch(Exception e) {
             System.out.println("wrong input please enter integer just ...");
 
         }
@@ -59,6 +34,6 @@ public class Hw3 {
 
     }
     public static void main(String[] args) {
-        HW3();
+        Hw3();
     }
 }
