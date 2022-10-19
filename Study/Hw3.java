@@ -1,7 +1,11 @@
 import java.util.Arrays;
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class Hw3 {
+    /**
+     * 
+     */
     public static void HW3 (){
         try (Scanner input = new Scanner(System.in)) {
             System.out.println("please enter number of row :");
@@ -12,6 +16,7 @@ public class Hw3 {
 
             int A[][] = new int[row][col];
             int B[][] = new int[row][col];
+
 
 
             for(int i=0,j=B.length-1;(i<row && j>=0); ++i,--j){
@@ -44,15 +49,18 @@ public class Hw3 {
             System.out.println("");
         }
 
+        
+
 
         //output as 2D array
         System.out.println("As Array:\n"+Arrays.deepToString(A)+"\n"+Arrays.deepToString(B));
 
 
-
+        
 
         }catch(Exception InputMismatchException) {
             System.out.println("wrong input please enter integer just ...");
+            
 
         }
 
