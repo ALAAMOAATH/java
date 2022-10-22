@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
-import javax.swing.JOptionPane;
+
 
 public class Hw3 {
     /**

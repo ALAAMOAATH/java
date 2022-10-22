@@ -1,11 +1,11 @@
 package account;
-import data.Data;
+import date.date;
 
 public class account {
     private static int Id ;
     private String custmerName;
     private double balance;
-    Data data= new Data();
+    public date data= new date();
        
     public account() {
         ++Id;

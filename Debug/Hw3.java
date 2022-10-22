@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Hw3 {
-    public static void Hw3 (){
+    public static void alaa (){
         try (Scanner input = new Scanner(System.in)) {
             System.out.println("please enter number of row :");
             int row = input.nextInt();
@@ -34,6 +34,6 @@ public class Hw3 {
 
     }
     public static void main(String[] args) {
-        Hw3();
+
     }
 }
