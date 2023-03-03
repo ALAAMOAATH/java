@@ -1,5 +1,6 @@
 import account.account;
 
+import java.util.stream.IntStream;
 public class App {
     public static void main(String[] args) throws Exception {
         account alaa = new account();
@@ -8,6 +9,13 @@ public class App {
 	    alaa.data.setYear(2022);
 	    alaa.addBalance(100000000.0);
 	    alaa.setCustmerName("alaa");
-	    alaa.accountInfo();
+	    //alaa.accountInfo();
+		for (int i=0 ; i<100 ; ++i){
+			System.out.println(i);
+
+		
+
+
+		}
     }
 }

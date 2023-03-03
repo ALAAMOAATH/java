@@ -1,6 +1,7 @@
 package account;
 import date.date;
 
+
 public class account {
     private static int Id ;
     private String custmerName;
@@ -49,7 +50,7 @@ public class account {
         System.out.println("name of account : "+custmerName);
         System.out.println("id for account : "+Id);
         System.out.println("blanace is "+balance+"$");
-        System.out.printf("date of Exp : %d / %d / %d ",data.getDay(),data.getMonth(),data.getYear()+5);
+        System.out.format("date of Exp : %d / %d / %d ",data.getDay(),data.getMonth(),data.getYear()+5);
 
     }
     
